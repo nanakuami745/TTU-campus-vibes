@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ttu-blue: #0F2A4A;
+  --color-ttu-gold: #F2B705;
+  --color-ttu-sky: #EEF3FB;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+}
